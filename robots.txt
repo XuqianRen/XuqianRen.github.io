@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yongtaoge.github.io/sitemap.xml
