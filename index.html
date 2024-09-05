@@ -5,6 +5,28 @@
     <meta name="google-site-verification" content="xD-3SSRbCl57BTEQeyi2tV9oCBTYIXYFF02MkW4NV5c" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Profile</title>
+    <style>
+        .profile-image {
+            max-width: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            float: right;
+            /* 确保图片在右边 */
+
+        }
+
+        .video-crop {
+            object-fit: cover;
+            /* 让视频适应容器 */
+            object-position: center top;
+            /* 从顶部开始展示视频 */
+            height: 70.67%;
+            /* 仅展示视频的上面2/3部分 */
+            width: 100%;
+            overflow: hidden;
+        }
+    </style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Xuqian Ren | 任旭倩</title>
     <meta name="author" content="Xuqian Ren" />
@@ -36,6 +58,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="canonical" href="https://github.com/XuqianRen">
 
+
 </head>
 
 <body class="fixed-top-nav ">
@@ -58,7 +81,7 @@
                         <li class="nav-item active"> <a class="nav-link" href="/">Home<span
                                     class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item "> <a class="nav-link" href="publications/">Research</a> </li>
+                        <!-- <li class="nav-item "> <a class="nav-link" href="publications/">Research</a> </li> -->
 
                         <li class="nav-item "> <a class="nav-link" href="cv/">CV</a> </li>
                     </ul>
@@ -68,12 +91,14 @@
     </header>
     <div class="container mt-5">
         <div class="post">
+            <img src="assets/img/portrait.JPG" alt="Xuqian Ren" class="profile-image">
             <header class="post-header">
                 <h1 class="post-title"> Xuqian Ren | 任旭倩 </h1>
                 <p class="desc"></p>
             </header>
             <article>
                 <div class="profile float-right"> </div>
+
                 <div class="clearfix">
 
                     <p>Currently I am a PhD student at <a href="https://research.tuni.fi/vision/">Computer Vision
@@ -244,51 +269,124 @@
                     </ol>
                 </div>
 
-                <div class="Services">
-                    <h2>Academic Services</h2>
-                    <!-- <h1 id="Academic Services" style="font-size: 1.3em;line-height: 1.2;">Academic Services</h1> -->
+                <div class="publications">
+                    <h2>Projects</h2>
+                    <ol class="bibliography">
 
-                    <ul>
-                        <li>Reviewer for ICCV2023, CVPR2023, ECCV2022, ICIP2022/2023, TIP2021.</li>
-                    </ul>
+                        <li>
+                            <div class="row">
+                                <div class="col-sm-2 preview">
+                                    <video class="preview z-depth-1 rounded video" width="100%" autoplay loop muted>
+                                        <source
+                                            src="https://github.com/maturk/dn-splatter/assets/30566358/9b3ffe9d-5fe9-4b8c-8426-d578bf877a35"
+                                            type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <div id="dn-splatter" class="col-sm-8">
+                                    <h5 class="title mb-0">DN-Splatter: Depth and Normal Priors for Gaussian Splatting
+                                        and Meshing</h5>
+
+
+                                    <a href="https://github.com/maturk/dn-splatter" class="btn btn-sm z-depth-0"
+                                        role="button" target="_blank" rel="noopener noreferrer">
+
+                                        <img src="https://img.shields.io/badge/GitHub-dn--splatter-blue"
+                                            alt="GitHub repository" style="vertical-align: middle; height: 2em;">
+
+                                        <span id="star-count" class="badge badge-primary"
+                                            style="font-size: 1.2em; line-height: 1.2em; vertical-align: middle;">
+                                            Loading...
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+
+
                 </div>
+                </li>
 
 
 
 
 
-                <footer class="fixed-bottom">
-                    <div class="container mt-0"> © modified from <a href="https://wenjiawang0312.github.io"
-                            target="_blank" rel="noopener noreferrer" style="color: black;">WenjiaWang0312</a>
+                </ol>
+        </div>
 
-                        <script type="text/javascript"
-                            src="//rf.revolvermaps.com/0/0/3.js?i=56pwsqdnkat&amp;b=0&amp;s=30&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1"
-                            async="async"></script> Last updated: Dec 9, 2023.
-                    </div>
-                </footer>
 
-                <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
-                    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
-                    integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
-                <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
-                    integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-                <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-                <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-                <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"
-                    integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-                <script defer src="/assets/js/zoom.js"></script>
-                <script defer src="/assets/js/common.js"></script>
-                <script type="text/javascript">window.MathJax = { tex: { tags: "ams" } };</script>
-                <script defer type="text/javascript" id="MathJax-script"
-                    src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-                <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-V036EPBJ99"></script>
-                <script>function gtag() { window.dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "G-V036EPBJ99");</script>
-                <script async src="https://cdn.panelbear.com/analytics.js?site=6ZQ5fbjk8uu"></script>
-                <script>window.panelbear = window.panelbear || function () { (window.panelbear.q = window.panelbear.q || []).push(arguments) }, panelbear("config", { site: "6ZQ5fbjk8uu" });</script>
+        <div class="Services">
+            <h2>Academic Services</h2>
+            <!-- <h1 id="Academic Services" style="font-size: 1.3em;line-height: 1.2;">Academic Services</h1> -->
+
+            <ul>
+                <li>Reviewer for ICCV2023, CVPR2023, ECCV2022, ICIP2022/2023, TIP2021.</li>
+            </ul>
+        </div>
+
+
+
+
+
+        <footer class="fixed-bottom">
+            <div class="container mt-0"> © modified from <a href="https://wenjiawang0312.github.io" target="_blank"
+                    rel="noopener noreferrer" style="color: black;">WenjiaWang0312</a>
+
+                <script type="text/javascript"
+                    src="//rf.revolvermaps.com/0/0/3.js?i=56pwsqdnkat&amp;b=0&amp;s=30&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1"
+                    async="async"></script> Last updated: Dec 9, 2023.
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
+            integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+            integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+        <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"
+            integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+        <script defer src="/assets/js/zoom.js"></script>
+        <script defer src="/assets/js/common.js"></script>
+        <script type="text/javascript">window.MathJax = { tex: { tags: "ams" } };</script>
+        <script defer type="text/javascript" id="MathJax-script"
+            src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+        <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-V036EPBJ99"></script>
+        <script>function gtag() { window.dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "G-V036EPBJ99");</script>
+        <script async src="https://cdn.panelbear.com/analytics.js?site=6ZQ5fbjk8uu"></script>
+        <script>window.panelbear = window.panelbear || function () { (window.panelbear.q = window.panelbear.q || []).push(arguments) }, panelbear("config", { site: "6ZQ5fbjk8uu" });</script>
+
+
+        <script>
+            async function fetchGitHubStars() {
+                const owner = 'maturk';
+                const repo = 'dn-splatter';
+                const apiUrl = `https://api.github.com/repos/${owner}/${repo}`;
+
+                try {
+                    const response = await fetch(apiUrl);
+                    const data = await response.json();
+
+
+                    const starCount = data.stargazers_count;
+
+
+                    document.getElementById('star-count').textContent = `${starCount} ⭐`;
+                } catch (error) {
+                    console.error('Error fetching GitHub stars:', error);
+                    document.getElementById('star-count').textContent = 'Error';
+                }
+            }
+
+            fetchGitHubStars();
+
+            setInterval(fetchGitHubStars, 600000); 
+        </script>
 </body>
 
 </html>
