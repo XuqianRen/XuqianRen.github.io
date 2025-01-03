@@ -63,7 +63,7 @@
 
 </head>
 
-<body class="fixed-top-nav ">
+<body class="fixed-top-nav " style="margin-right: 0px; margin-left: 10px;">
     <header>
         <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
             <div class="container"> <span class="contact-icon text-center" style="line-height: 1em;"> <a
@@ -113,7 +113,7 @@
                             Group</a>, Tampere University, where I am working with and supervised by <a
                             href="http://esa.rahtu.fi">Prof. Esa Rahtu</a> and <a
                             href="https://users.aalto.fi/~kannalj1/">Prof. Juho Kannala</a> from Aalto University on
-                        Novel View Synthesis and 3D Reconstruction & Generation.</p>
+                        Novel View Synthesis, 3D Reconstruction & Generation and Video Generation.</p>
                     I am open to collaborations and internships. Please feel free to contact me if you are interested in
                     my research.
 
@@ -166,92 +166,102 @@
                 <br>
                 <div class="publications">
                     <h2>Main Publications</h2>
-                    <ol class="bibliography">
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-2 preview"><img class="preview z-depth-2 rounded" width="120%"
-                                        src="https://xuqianren.github.io/ags_mesh_website/static/images/pipeline_ags_mesh.png">
-                                </div>
-                                <div id="ren2024ags_mesh" class="col-sm-8">
-                                    <h5 class="title mb-0">AGS-Mesh: Adaptive Gaussian Splatting and Meshing with
-                                        Geometric Priors for Indoor Room Reconstruction Using Smartphones</h5>
-                                    <div class="author"><em>Xuqian Ren ‡</em>,
-                                        <a href="https://maturk.github.io" target="_blank"
-                                            rel="noopener noreferrer">Matias Turkulainen</a>,
-                                        <a href="https://jiepengwang.github.io" target="_blank"
-                                            rel="noopener noreferrer">Jiepeng Wang †</a>,
-                                        <a href="https://oseiskar.github.io" target="_blank"
-                                            rel="noopener noreferrer">Otto Seiskari</a>,
-                                        <a href="https://imelekhov.com" target="_blank"
-                                            rel="noopener noreferrer">Iaroslav Melekhov</a>,
-                                        <a href="https://users.aalto.fi/~kannalj1/" target="_blank"
-                                            rel="noopener noreferrer">Juho Kannala</a>,
-                                        <a href="http://esa.rahtu.fi" target="_blank" rel="noopener noreferrer">Esa
-                                            Rahtu</a>
+                    <div class="container">
+                        <ol class="bibliography">
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-4 preview">
+                                        <img class="preview z-depth-2 rounded" style="width: 100%; height: auto; "
+                                            src="https://github.com/XuqianRen/XuqianRen.github.io/blob/master/assets/publications/ags_mesh.png?raw=true">
                                     </div>
-                                    <div class="periodical"> <em>International Conference on 3D Vision (3DV 2025)</em>
-                                    </div>
-                                    <div class="periodical"> (‡ Project Lead&nbsp;&nbsp;† Corresponding author) </div>
 
-                                    <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a
-                                            href="https://arxiv.org/pdf/2411.19271" class="btn btn-sm z-depth-0"
-                                            role="button" target="_blank" rel="noopener noreferrer">PDF</a> <a
-                                            href="https://xuqianren.github.io/ags_mesh_website/"
-                                            class="btn btn-sm z-depth-0" role="button" target="_blank"
-                                            rel="noopener noreferrer">Web</a>
-                                        <a href="https://github.com/XuqianRen/AGS_Mesh" class="btn btn-sm z-depth-0"
-                                            role="button" target="_blank" rel="noopener noreferrer">Code</a>
-                                    </div>
-                                    <div class="bibtex hidden">
-                                        <figure class="highlight">
-                                            <pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">ren2024ags_mesh</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{AGS-Mesh: Adaptive Gaussian Splatting and Meshing with
-    Geometric Priors for Indoor Room Reconstruction Using Smartphones}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Xuqian Ren and Matias Turkulainen and Jiepeng Wang and Otto Seiskari and Iaroslav Melekhov and Juho Kannala and Esa Rahtu}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span>
-  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">archivePrefix</span> <span class="p">=</span> <span class="s">{3DV}</span>
-  <span class="na">primaryClass</span> <span class="p">=</span> <span class="s">{cs.CV}</span>
-<span class="p">}</span></code></pre>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
+                                    <div id="ren2024ags_mesh" class="col-sm-8">
+                                        <h5 class="title mb-0">AGS-Mesh: Adaptive Gaussian Splatting and Meshing
+                                            with
+                                            Geometric Priors for Indoor Room Reconstruction Using Smartphones</h5>
+                                        <div class="author"><em>Xuqian Ren ‡</em>,
+                                            <a href="https://maturk.github.io" target="_blank"
+                                                rel="noopener noreferrer">Matias Turkulainen</a>,
+                                            <a href="https://jiepengwang.github.io" target="_blank"
+                                                rel="noopener noreferrer">Jiepeng Wang †</a>,
+                                            <a href="https://oseiskar.github.io" target="_blank"
+                                                rel="noopener noreferrer">Otto Seiskari</a>,
+                                            <a href="https://imelekhov.com" target="_blank"
+                                                rel="noopener noreferrer">Iaroslav Melekhov</a>,
+                                            <a href="https://users.aalto.fi/~kannalj1/" target="_blank"
+                                                rel="noopener noreferrer">Juho Kannala</a>,
+                                            <a href="http://esa.rahtu.fi" target="_blank" rel="noopener noreferrer">Esa
+                                                Rahtu</a>
+                                        </div>
+                                        <div class="periodical"> <em>International Conference on 3D Vision (3DV
+                                                2025)</em>
+                                        </div>
+                                        <div class="periodical"> (‡ Project Lead&nbsp;&nbsp;† Corresponding author)
+                                        </div>
 
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-2 preview"><img class="preview z-depth-2 rounded" width="100%"
-                                        src="https://github.com/maturk/dn-splatter/blob/main/assets/pipeline_crop.jpg?raw=true">
+                                        <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+                                            <a href="https://arxiv.org/pdf/2411.19271" class="btn btn-sm z-depth-0"
+                                                role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+                                            <a href="https://xuqianren.github.io/ags_mesh_website/"
+                                                class="btn btn-sm z-depth-0" role="button" target="_blank"
+                                                rel="noopener noreferrer">Web</a>
+                                            <a href="https://github.com/XuqianRen/AGS_Mesh" class="btn btn-sm z-depth-0"
+                                                role="button" target="_blank" rel="noopener noreferrer">Code</a>
+                                        </div>
+                                        <div class="bibtex hidden">
+                                            <figure class="highlight">
+                                                <pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">ren2024ags_mesh</span><span class="p">,</span>
+                          <span class="na">title</span> <span class="p">=</span> <span class="s">{AGS-Mesh: Adaptive Gaussian Splatting and Meshing with
+                            Geometric Priors for Indoor Room Reconstruction Using Smartphones}</span><span class="p">,</span>
+                          <span class="na">author</span> <span class="p">=</span> <span class="s">{Xuqian Ren and Matias Turkulainen and Jiepeng Wang and Otto Seiskari and Iaroslav Melekhov and Juho Kannala and Esa Rahtu}</span><span class="p">,</span>
+                          <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span>
+                          <span class="na">eprint</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+                          <span class="na">archivePrefix</span> <span class="p">=</span> <span class="s">{3DV}</span>
+                          <span class="na">primaryClass</span> <span class="p">=</span> <span class="s">{cs.CV}</span>
+                        <span class="p">}</span></code></pre>
+                                            </figure>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div id="ren2023mushroom" class="col-sm-8">
-                                    <h5 class="title mb-0">DN-Splatter: Depth and Normal Priors for Gaussian Splatting
-                                        and Meshing</h5>
-                                    <div class="author"><a href="https://maturk.github.io" target="_blank"
-                                            rel="noopener noreferrer">Matias Turkulainen*</a>,
-                                        <em>Xuqian Ren*</em>, <a href="https://imelekhov.com" target="_blank"
-                                            rel="noopener noreferrer">Iaroslav Melekhov</a>,
-                                        <a href="https://oseiskar.github.io" target="_blank"
-                                            rel="noopener noreferrer">Otto Seiskari</a>,
-                                        <a href="http://esa.rahtu.fi" target="_blank" rel="noopener noreferrer">Esa
-                                            Rahtu</a>,
-                                        <a href="https://users.aalto.fi/~kannalj1/" target="_blank"
-                                            rel="noopener noreferrer">Juho Kannala</a>
+                            </li>
+
+
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-4 preview"><img class="preview z-depth-2 rounded" width="100%"
+                                            src="https://github.com/maturk/dn-splatter/blob/main/assets/pipeline_crop.jpg?raw=true">
                                     </div>
-                                    <div class="periodical"> <em>Winter Conference on Applications of Computer Vision
-                                            2024 (WACV 2025)</em> </div>
-                                    <div class="periodical"> (* equal contribution) </div>
-                                    <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a
-                                            href="https://arxiv.org/abs/2403.17822" class="btn btn-sm z-depth-0"
-                                            role="button" target="_blank" rel="noopener noreferrer">PDF</a> <a
-                                            href="https://maturk.github.io/dn-splatter/" class="btn btn-sm z-depth-0"
-                                            role="button" target="_blank" rel="noopener noreferrer">Web</a>
-                                        <a href="https://github.com/maturk/dn-splatter" class="btn btn-sm z-depth-0"
-                                            role="button" target="_blank" rel="noopener noreferrer">Code</a>
-                                    </div>
-                                    <div class="bibtex hidden">
-                                        <figure class="highlight">
-                                            <pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">turkulainen2024dnsplatter</span><span class="p">,</span>
+                                    <div id="ren2023mushroom" class="col-sm-8">
+                                        <h5 class="title mb-0">DN-Splatter: Depth and Normal Priors for Gaussian
+                                            Splatting
+                                            and Meshing</h5>
+                                        <div class="author"><a href="https://maturk.github.io" target="_blank"
+                                                rel="noopener noreferrer">Matias Turkulainen*</a>,
+                                            <em>Xuqian Ren*</em>, <a href="https://imelekhov.com" target="_blank"
+                                                rel="noopener noreferrer">Iaroslav Melekhov</a>,
+                                            <a href="https://oseiskar.github.io" target="_blank"
+                                                rel="noopener noreferrer">Otto Seiskari</a>,
+                                            <a href="http://esa.rahtu.fi" target="_blank" rel="noopener noreferrer">Esa
+                                                Rahtu</a>,
+                                            <a href="https://users.aalto.fi/~kannalj1/" target="_blank"
+                                                rel="noopener noreferrer">Juho Kannala</a>
+                                        </div>
+                                        <div class="periodical"> <em>Winter Conference on Applications of Computer
+                                                Vision
+                                                2024 (WACV 2025)</em> </div>
+                                        <div class="periodical"> (* equal contribution) </div>
+                                        <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+                                            <a href="https://arxiv.org/abs/2403.17822" class="btn btn-sm z-depth-0"
+                                                role="button" target="_blank" rel="noopener noreferrer">PDF</a> <a
+                                                href="https://maturk.github.io/dn-splatter/"
+                                                class="btn btn-sm z-depth-0" role="button" target="_blank"
+                                                rel="noopener noreferrer">Web</a>
+                                            <a href="https://github.com/maturk/dn-splatter" class="btn btn-sm z-depth-0"
+                                                role="button" target="_blank" rel="noopener noreferrer">Code</a>
+                                        </div>
+                                        <div class="bibtex hidden">
+                                            <figure class="highlight">
+                                                <pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">turkulainen2024dnsplatter</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{DN-Splatter: Depth and Normal Priors for Gaussian Splatting and Meshing}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Matias Turkulainen and Xuqian Ren and Iaroslav Melekhov and Otto Seiskari and Esa Rahtu and Juho Kannala}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span>
@@ -259,43 +269,46 @@
   <span class="na">archivePrefix</span> <span class="p">=</span> <span class="s">{arXiv}</span>
   <span class="na">primaryClass</span> <span class="p">=</span> <span class="s">{cs.CV}</span>
 <span class="p">}</span></code></pre>
-                                        </figure>
+                                            </figure>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
 
 
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-2 preview"><img class="preview z-depth-2 rounded" width="100%"
-                                        src="assets/publications/mushroom.jpg"></div>
-                                <div id="ren2023mushroom" class="col-sm-8">
-                                    <h5 class="title mb-0">MuSHRoom: Multi-Sensor Hybrid Room Dataset for Joint 3D
-                                        Reconstruction and Novel View Synthesis.</h5>
-                                    <div class="author"><em>Xuqian Ren</em>,
-                                        <a href="https://wenjiawang0312.github.io" target="_blank"
-                                            rel="noopener noreferrer">Wenjia Wang</a>, <a
-                                            href="https://dingdingcai.github.io" target="_blank"
-                                            rel="noopener noreferrer">Dingding Cai</a>, Tuuli Tuominen,
-                                        <a href="https://users.aalto.fi/~kannalj1/" target="_blank"
-                                            rel="noopener noreferrer">Juho Kannala</a>, <a href="http://esa.rahtu.fi"
-                                            target="_blank" rel="noopener noreferrer">Esa Rahtu</a>
-                                    </div>
-                                    <div class="periodical"> <em>Winter Conference on Applications of Computer Vision
-                                            2024 (WACV 2024)</em> </div>
-                                    <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a
-                                            href="https://arxiv.org/abs/2311.02778" class="btn btn-sm z-depth-0"
-                                            role="button" target="_blank" rel="noopener noreferrer">PDF</a> <a
-                                            href="https://xuqianren.github.io/publications/MuSHRoom/"
-                                            class="btn btn-sm z-depth-0" role="button" target="_blank"
-                                            rel="noopener noreferrer">Web</a>
-                                        <a href="https://github.com/TUTvision/MuSHRoom" class="btn btn-sm z-depth-0"
-                                            role="button" target="_blank" rel="noopener noreferrer">Code</a>
-                                    </div>
-                                    <div class="bibtex hidden">
-                                        <figure class="highlight">
-                                            <pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ren2023mushroom</span><span class="p">,</span>
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-4 preview"><img class="preview z-depth-2 rounded" width="100%"
+                                            src="assets/publications/mushroom.jpg"></div>
+                                    <div id="ren2023mushroom" class="col-sm-8">
+                                        <h5 class="title mb-0">MuSHRoom: Multi-Sensor Hybrid Room Dataset for Joint
+                                            3D
+                                            Reconstruction and Novel View Synthesis.</h5>
+                                        <div class="author"><em>Xuqian Ren</em>,
+                                            <a href="https://wenjiawang0312.github.io" target="_blank"
+                                                rel="noopener noreferrer">Wenjia Wang</a>, <a
+                                                href="https://dingdingcai.github.io" target="_blank"
+                                                rel="noopener noreferrer">Dingding Cai</a>, Tuuli Tuominen,
+                                            <a href="https://users.aalto.fi/~kannalj1/" target="_blank"
+                                                rel="noopener noreferrer">Juho Kannala</a>, <a
+                                                href="http://esa.rahtu.fi" target="_blank" rel="noopener noreferrer">Esa
+                                                Rahtu</a>
+                                        </div>
+                                        <div class="periodical"> <em>Winter Conference on Applications of Computer
+                                                Vision
+                                                2024 (WACV 2024)</em> </div>
+                                        <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+                                            <a href="https://arxiv.org/abs/2311.02778" class="btn btn-sm z-depth-0"
+                                                role="button" target="_blank" rel="noopener noreferrer">PDF</a> <a
+                                                href="https://xuqianren.github.io/publications/MuSHRoom/"
+                                                class="btn btn-sm z-depth-0" role="button" target="_blank"
+                                                rel="noopener noreferrer">Web</a>
+                                            <a href="https://github.com/TUTvision/MuSHRoom" class="btn btn-sm z-depth-0"
+                                                role="button" target="_blank" rel="noopener noreferrer">Code</a>
+                                        </div>
+                                        <div class="bibtex hidden">
+                                            <figure class="highlight">
+                                                <pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ren2023mushroom</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{MuSHRoom: Multi-Sensor Hybrid Room Dataset for Joint 3D
     Reconstruction and Novel View Synthesis}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Winter Conference on Applications of Computer Vision (WACV)}</span><span class="p">,</span>
@@ -303,34 +316,35 @@
     Juho Kannala, Esa Rahtu}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span>
 <span class="p">}</span></code></pre>
-                                        </figure>
+                                            </figure>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
 
 
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-2 preview"><img class="preview z-depth-2 rounded" width="100%"
-                                        src="assets/publications/Ham.png"></div>
-                                <div id="ren2022semantic" class="col-sm-8">
-                                    <h5 class="title mb-0">Semantic-guided Multi-Mask Image Harmonization</h5>
-                                    <div class="author"> <em>Xuqian Ren</em>, <a
-                                            href="https://scholar.google.com.hk/citations?user=ksQ4JnQAAAAJ&hl=zh-CN">Yifan
-                                            Liu</a> </div>
-                                    <div class="periodical"> <em>European Conference on Computer Vision 2022 (ECCV
-                                            2022)</em> </div>
-                                    <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a
-                                            href="https://arxiv.org/pdf/2207.11722.pdf" class="btn btn-sm z-depth-0"
-                                            role="button" target="_blank" rel="noopener noreferrer">PDF</a>
-                                        <a href="https://github.com/XuqianRen/Semantic-guided-Multi-mask-Image-Harmonization"
-                                            class="btn btn-sm z-depth-0" role="button" target="_blank"
-                                            rel="noopener noreferrer">Code</a>
-                                    </div>
-                                    <div class="bibtex hidden">
-                                        <figure class="highlight">
-                                            <pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ren2022semantic</span><span class="p">,</span>
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-4 preview"><img class="preview z-depth-2 rounded" width="100%"
+                                            src="assets/publications/Ham.png"></div>
+                                    <div id="ren2022semantic" class="col-sm-8">
+                                        <h5 class="title mb-0">Semantic-guided Multi-Mask Image Harmonization</h5>
+                                        <div class="author"> <em>Xuqian Ren</em>, <a
+                                                href="https://scholar.google.com.hk/citations?user=ksQ4JnQAAAAJ&hl=zh-CN">Yifan
+                                                Liu</a> </div>
+                                        <div class="periodical"> <em>European Conference on Computer Vision 2022
+                                                (ECCV
+                                                2022)</em> </div>
+                                        <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+                                            <a href="https://arxiv.org/pdf/2207.11722.pdf" class="btn btn-sm z-depth-0"
+                                                role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+                                            <a href="https://github.com/XuqianRen/Semantic-guided-Multi-mask-Image-Harmonization"
+                                                class="btn btn-sm z-depth-0" role="button" target="_blank"
+                                                rel="noopener noreferrer">Code</a>
+                                        </div>
+                                        <div class="bibtex hidden">
+                                            <figure class="highlight">
+                                                <pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ren2022semantic</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Semantic-guided multi-mask image harmonization}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Ren, Xuqian and Liu, Yifan}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{European Conference on Computer Vision}</span><span class="p">,</span>
@@ -338,54 +352,55 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span>
   <span class="na">organization</span> <span class="p">=</span> <span class="s">{Springer}</span>
 <span class="p">}</span></code></pre>
-                                        </figure>
+                                            </figure>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
 
 
 
 
-                    </ol>
-                </div>
+                        </ol>
+                    </div>
 
-                <div class="publications">
-                    <h2>Projects</h2>
-                    <ol class="bibliography">
+                    <div class="publications">
+                        <h2>Projects</h2>
+                        <ol class="bibliography">
 
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-2 preview">
-                                    <video class="preview z-depth-1 rounded video" width="100%" autoplay loop muted>
-                                        <source
-                                            src="https://github.com/maturk/dn-splatter/assets/30566358/9b3ffe9d-5fe9-4b8c-8426-d578bf877a35"
-                                            type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-4 preview">
+                                        <video class="preview z-depth-1 rounded video" width="100%" autoplay loop muted>
+                                            <source
+                                                src="https://github.com/maturk/dn-splatter/assets/30566358/9b3ffe9d-5fe9-4b8c-8426-d578bf877a35"
+                                                type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div id="dn-splatter" class="col-sm-8">
+                                        <h5 class="title mb-0">DN-Splatter + AGS-Mesh</h5>
+
+
+
+
+                                        <a href="https://github.com/maturk/dn-splatter" class="btn btn-sm z-depth-0"
+                                            role="button" target="_blank" rel="noopener noreferrer">
+
+                                            <img src="https://img.shields.io/badge/GitHub-dn--splatter-blue"
+                                                alt="GitHub repository" style="vertical-align: middle; height: 2em;">
+
+                                            <span id="star-count" class="badge badge-primary"
+                                                style="font-size: 1.2em; line-height: 1.2em; vertical-align: middle;">
+                                                Loading...
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div id="dn-splatter" class="col-sm-8">
-                                    <h5 class="title mb-0">DN-Splatter + AGS-Mesh</h5>
 
 
 
-
-                                    <a href="https://github.com/maturk/dn-splatter" class="btn btn-sm z-depth-0"
-                                        role="button" target="_blank" rel="noopener noreferrer">
-
-                                        <img src="https://img.shields.io/badge/GitHub-dn--splatter-blue"
-                                            alt="GitHub repository" style="vertical-align: middle; height: 2em;">
-
-                                        <span id="star-count" class="badge badge-primary"
-                                            style="font-size: 1.2em; line-height: 1.2em; vertical-align: middle;">
-                                            Loading...
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-
-
-
+                    </div>
                 </div>
                 </li>
 
@@ -418,9 +433,10 @@
             </ul>
         </div>
 
-
         <script type='text/javascript' id='clustrmaps'
             src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=109&t=n&d=jPKg5a-ptuI8H2D03-DIOyEY1mm7a-xrHEj_hD5QxvU'></script>
+
+
 
         <footer class="fixed-bottom">
             <div class="container mt-0"> © modified from <a href="https://wenjiawang0312.github.io" target="_blank"

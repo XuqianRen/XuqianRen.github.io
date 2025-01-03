@@ -17,7 +17,6 @@
 }
 
 :root .fa-moon {
-    padding-left: 10px;
     padding-top: 12px;
     display: block
 }
@@ -46,7 +45,6 @@ html[data-theme=dark] {
 }
 
 html[data-theme=dark] .fa-sun {
-    padding-left: 10px;
     padding-top: 12px;
     display: block
 }
@@ -79,7 +77,8 @@ body h6 {
 }
 
 body.fixed-top-nav {
-    padding-top: 56px
+    padding-top: 56px;
+
 }
 
 body.sticky-bottom-footer {
@@ -87,7 +86,9 @@ body.sticky-bottom-footer {
 }
 
 .container {
-    max-width: 1000px
+    padding-left: 100px;
+    max-width: 1500px;
+    padding-right: 100px;
 }
 
 .profile img {
@@ -101,7 +102,7 @@ body.sticky-bottom-footer {
 
 progress {
     position: fixed;
-    left: 0;
+    left: 10;
     top: 56px;
     z-index: 10;
     width: 100%;
@@ -111,7 +112,7 @@ progress {
 .progress-container {
     display: block;
     position: fixed;
-    left: 0;
+    left: 20px;
     top: 56px;
     width: 100%;
     height: 5px
@@ -271,7 +272,8 @@ blockquote {
     box-shadow: none;
     border-bottom: 1px solid var(--global-divider-color);
     background-color: var(--navbar-bg-color);
-    opacity: .95
+    opacity: .95;
+    border-left: 1px solid var(--global-divider-color);
 }
 
 .navbar .dropdown-menu {
@@ -348,7 +350,7 @@ blockquote {
     background-color: var(--global-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
-    transition: all .2s
+    transition: all .2s;
 }
 
 .navbar-toggler .top-bar {
@@ -693,7 +695,7 @@ footer.sticky-bottom {
 }
 
 .projects .card img {
-    width: 100%
+    width: 120%
 }
 
 .projects .card-item {
@@ -722,8 +724,18 @@ footer.sticky-bottom {
 }
 
 .publications {
-    margin-top: 2rem
+    margin-top: 2rem;
+    overflow: visible !important;
 }
+
+.publications .container {
+    max-width: 1500px !important;
+    padding-left: 100 !important;
+    padding-right: 0 !important;
+    margin-left: -100px !important;
+    margin-right: -200px !important;
+}
+
 
 .publications h1 {
     color: var(--global-theme-color);
@@ -763,7 +775,7 @@ footer.sticky-bottom {
 .publications ol.bibliography li .preview {
     width: 100%;
     min-width: 80px;
-    max-width: 200px
+    max-width: 300px
 }
 
 .publications ol.bibliography li .abbr {
@@ -937,7 +949,7 @@ html.transition *:after {
 
 progress {
     position: fixed;
-    left: 0;
+    left: 10;
     top: 56px;
     z-index: 10;
     width: 100%;
@@ -967,7 +979,7 @@ progress::-moz-progress-bar {
     background-color: transparent;
     position: fixed;
     top: 56px;
-    left: 0;
+    left: 10;
     height: 5px;
     display: block
 }
